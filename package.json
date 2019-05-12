@@ -1,0 +1,30 @@
+{
+  "name": "@peteryuan/react-eventhandler",
+  "version": "1.0.0",
+  "description": "help you simply solved the puzzle of event communication in React.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitHubJiKe/react-event-handler.git"
+  },
+  "keywords": [
+    "react-eventhandler",
+    "react",
+    "event"
+  ],
+  "author": "peter.yuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GitHubJiKe/react-event-handler/issues"
+  },
+  "bin": "index.js",
+  "files": [
+    "index.js",
+    "src"
+  ],
+  "npmName": "@peteryuan/react-eventhandler",
+  "homepage": "https://github.com/GitHubJiKe/react-event-handler#readme"
+}

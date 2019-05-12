@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "./",
+    "declaration": true,
+    "target": "es5",
+    "sourceMap": true,
+    "module": "commonjs",
+    "lib": ["es2016", "dom"],
+    "typeRoots": ["./node_modules/@types/"],
+    "experimentalDecorators": true
+  },
+  "allowJs": true,
+  "checkJs": true,
+  "include": ["./**/*"],
+  "exclude": ["node_modules", "src"]
+}
