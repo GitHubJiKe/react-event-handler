@@ -76,7 +76,7 @@ class ReactEeventHandler {
    * @returns
    * @memberof ReactEeventHandler
    */
-  private getModuleName(opt) {
+  private getModuleName(opt): string {
     return this.mode === MODE.GLOBAL ? opt.moduleName : this.moduleName;
   }
   /**
@@ -138,7 +138,7 @@ class ReactEeventHandler {
    * @param {*} args
    * @memberof ReactEeventHandler
    */
-  public emitDelay(opt: EmitDelayOpt, ...args) {
+  public emitDelay(opt: EmitDelayOpt, ...args): void {
     let timeout = opt.timeout ? opt.timeout : 3000;
     setTimeout(() => this.emit(opt, ...args), timeout);
   }
@@ -173,7 +173,7 @@ class ReactEeventHandler {
    * @param {string[]} moduleNames
    * @memberof ReactEeventHandler
    */
-  public offByModule(moduleNames: string[]) {
+  public offByModule(moduleNames: string[]): void {
     if (
       !Array.isArray(moduleNames) &&
       typeof moduleNames === "string" &&
