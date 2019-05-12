@@ -1,6 +1,6 @@
 {
   "name": "@peteryuan/react-eventhandler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "help you simply solved the puzzle of event communication in React.",
   "main": "index.js",
   "scripts": {

@@ -22,7 +22,7 @@ var ReactEeventHandler = /** @class */ (function () {
         this.mode = mode;
         this.moduleName = typeof moduleName === "string" ? moduleName : "Global";
         this.isClassComponent =
-            typeof isClassComponent === "boolean" ? isClassComponent : true;
+            typeof isClassComponent === "boolean" ? isClassComponent : false;
     }
     /**
      * @description 是否存在该模块
