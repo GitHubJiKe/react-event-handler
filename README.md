@@ -3,9 +3,7 @@
 > 帮助你轻松的解决父子组件间事件控制的烦恼
 
 ## Demo 
-
-![react-eventhandler](https://c1.boldseas.com/image/react-eventhandler.gif) 
-(gif)[https://c1.boldseas.com/image/react-eventhandler.gif]
+[Demo.gif](https://c1.boldseas.com/image/react-eventhandler.gif)
 
 ## Usage
 
